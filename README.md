@@ -7,6 +7,8 @@
 
 - Rules added for handling JS, JSX, CSS, Images, lazy-loading, etc.
 
+- Main code in webpack.config.js
+
 ## Technologies
 
 :coffee: **_React.js_**
