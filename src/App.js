@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Link, Route } from "react-router-dom";
-import Users from "./components/Users";
+
+import Users from "./containers/Users";
 import asyncComponent from "./hoc/asyncComponent";
 
-// Lazy load
+// Lazy loading
 const AsyncPizza = asyncComponent(() => {
   return import("./containers/Pizza.js");
 });
